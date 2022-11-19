@@ -29,7 +29,6 @@
             text-align: center;
             color: blue;
             padding: 20px 0 20px 0;
-            height: max-content;
             font-weight: bold;
             border: 0;
         }
@@ -43,13 +42,15 @@
 
         .second {
             background: url(picture.png) width: 20px; height: 20px; top right;
+            background: url(ball.png) top right repeat-y;
             padding: 0 15px 0 15px;
             text-align: justify;
         }
+
     </style>
 
 <body>
-        <div class="homework">
+        <div class="container">
             <table style="border-collapse: collapse">
                 <tbody><tr>
                     <td colspan="2" class="header">
@@ -74,7 +75,7 @@
                     <td class="second">
                         <h2 style="text-align: center">Футбол</h2>
                         <img src="picture.png" style="float: left; margin-right: 10px">
-                        <img src="football.png" style="float: right; margin-right: 0px; filter: alpha(opacity=40); ">
+                        <img src="football.png" style="float: right; margin-right: 0px; filter: alpha(opacity=40); background-repeat: repeat-y; ">
                         <p>Футбол - командный вид спорта, в котором целью является забить мяч в ворота соперника
                             ногами или другими частями тела (кроме рук) большее количество раз, чем команда
                             соперника.</p>
