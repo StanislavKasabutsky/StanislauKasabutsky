@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div a{
+            color: rgb(34, 156, 34);
+        }
+
+        div a:hover
+        {
+            color: red;
+        }
+
+        .firstsol a::after {
+            content: "|";
+            color: red;
+            font-size: 40px;
+            padding-left: 6px;
+            font-weight: bold;
+        }
+
+        .secondsol {
+            border: 10px;
+            border-right: red;
+        }
+        td {
+            padding: 20px;
+        }
+    </style>
+    <div class="firstsol">
+ <a href="google.com"> 1 ссылка </a> 
+ <a href="google.com"> 2 ссылка </a> 
+ <a href="google.com"> 3 ссылка </a> 
+ <a href="google.com"> 4 ссылка </a> 
+ <a href="google.com"> 5 ссылка </a> 
+</div>
+<div class="secondsol">
+<table> 
+<tr>
+    <td>    <a href="google.com"> 1 ссылка </a> 
+    <td>    <a href="google.com"> 2 ссылка </a> 
+    <td>    <a href="google.com"> 3 ссылка </a> 
+    <td>    <a href="google.com"> 4 ссылка </a> 
+    <td>    <a href="google.com"> 5 ссылка </a>
+</tr>
+</table> 
+</div>
+
+</div>
+</body>
+</html>
