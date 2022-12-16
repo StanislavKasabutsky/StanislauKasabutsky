@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+             margin: 3px;
+             padding: 0;
+             box-sizing: border-box;
+             }
+    </style>
+</head>
+<body>
+
+    <div style="width: 100%;"> 
+        <label><p>
+        Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p> </label>
+           <p style="margin-top: 30px; margin-bottom: 0px;">
+        
+        Название статьи: </p>
+        <label><form method="get" action="http://fe.it-academy.by/TestForm.php"> <input type="text" name="name"  style="width: 100%; margin-top: 0px;">
+        </form> </label>
+        <p>
+        Рубрика:
+        </p>
+        <label for="rub"><select name="rub">
+            <option value="4">Программирование</option>
+            <option value="4">Компьютерная техника</option>
+            <option value="4">Графика и дизайн</option>
+        </select> </label>
+        <label for="post"><form method="post"> 
+             <input type="radio" name="answer" value="1"> <span> на сайте </span> <br>
+             <input type="radio" name="answer" value="2">  <span> в журнале </span> <br>
+             <input type="radio" name="answer" value="3">  <span> на сайте и в журнале </span> <br>
+             <input type="hidden" name="votenum" value="111">  <br>
+        </form>  </label>
+        Pазрешить комментарии:
+        <input type="checkbox" name="comments" value="YES">
+        <br>
+        <p  style="margin-top: 30px; padding: 0px;">
+        Tекст статьи:</p>
+        <label for="text"><textarea name="text"  style="width: 100%; margin: 0px; padding: 0px;"> </textarea>
+            <br>
+            <input type="submit" value="Опубликовать"> <br> </label>
+    </div>
+</body>
+</html>
